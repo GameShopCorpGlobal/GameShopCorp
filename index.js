@@ -35,6 +35,21 @@ app.get('/', (req, res) => res.send(`
     </html>
   `))
 
+app.get('/privacy_policy', (req, res) => res.send(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>GameShop Corp</title>
+      <meta charset="utf-8">
+        
+    </head>
+    <body>
+      <h1>All Rights Reserved</h1>
+       
+    </body>
+    </html>
+  `))
+
 for (let line of startupMessage.split("\n")) {
 	console.log(line)
 }
