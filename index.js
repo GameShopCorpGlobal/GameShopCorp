@@ -44,7 +44,7 @@ app.get('/privacy_policy', (req, res) => res.send(`
         
     </head>
     <body>
-      <h1>Privacy Policy</h1>
+      
        <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
           background: transparent !important;
